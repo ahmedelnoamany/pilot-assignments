@@ -1,5 +1,9 @@
 var console = require('./lib/consolelog.js');
 
 module.exports = function triangle() {
-  // write your code here
+  var x = ''
+  for (var i = 0; i < 7; i++){
+      x += '#'
+     console.log(x)
+   }
 }
